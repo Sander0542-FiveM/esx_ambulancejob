@@ -4,25 +4,25 @@ Config.DrawDistance               = 20.0 -- How close do you need to be in order
 
 Config.Marker                     = {type = 1, x = 1.5, y = 1.5, z = 0.5, r = 102, g = 0, b = 102, a = 100, rotate = false}
 
-Config.ReviveReward               = 700  -- Revive reward, set to 0 if you don't want it enabled
+Config.ReviveReward               = 100  -- Revive reward, set to 0 if you don't want it enabled
 Config.AntiCombatLog              = true -- Enable anti-combat logging? (Removes Items when a player logs back after intentionally logging out while dead.)
-Config.LoadIpl                    = true -- Disable if you're using fivem-ipl or other IPL loaders
+Config.LoadIpl                    = false -- Disable if you're using fivem-ipl or other IPL loaders
 
 Config.Locale                     = 'en'
 
-Config.EarlyRespawnTimer          = 1000 * 10  -- time til respawn is available
-Config.BleedoutTimer              = 1000 * 170 -- time til the player bleeds out
+Config.EarlyRespawnTimer          = 1000 * 120  -- time til respawn is available
+Config.BleedoutTimer              = 1000 * 180 -- time til the player bleeds out
 
 Config.EnablePlayerManagement     = true -- Enable society managing (If you are using esx_society).
 
-Config.RemoveWeaponsAfterRPDeath  = false
+Config.RemoveWeaponsAfterRPDeath  = true
 Config.RemoveCashAfterRPDeath     = false
 Config.RemoveBlackCashAfterRPDeath = true
 Config.RemoveItemsAfterRPDeath    = false
 
 -- Let the player pay for respawning early, only if he can afford it.
 Config.EarlyRespawnFine           = true
-Config.EarlyRespawnFineAmount     = 200
+Config.EarlyRespawnFineAmount     = 2000
 
 Config.RespawnPoint = {coords = vector3(341.0, -1397.3, 32.5), heading = 48.5}
 
@@ -130,19 +130,19 @@ Config.Hospitals = {
 Config.AuthorizedVehicles = {
 	car = {
 		ambulance = {
-			{model = 'ambulance', price = 5000}
+			{model = 'ambulance', price = 0}
 		},
 
 		doctor = {
-			{model = 'ambulance', price = 4500}
+			{model = 'ambulance', price = 5}
 		},
 
 		chief_doctor = {
-			{model = 'ambulance', price = 3000}
+			{model = 'ambulance', price = 0}
 		},
 
 		boss = {
-			{model = 'ambulance', price = 2000}
+			{model = 'ambulance', price = 0}
 		}
 	},
 
@@ -150,17 +150,17 @@ Config.AuthorizedVehicles = {
 		ambulance = {},
 
 		doctor = {
-			{model = 'buzzard2', price = 150000}
+			{model = 'buzzard2', price = 150}
 		},
 
 		chief_doctor = {
-			{model = 'buzzard2', price = 150000},
-			{model = 'seasparrow', price = 300000}
+			{model = 'buzzard2', price = 150},
+			{model = 'seasparrow', price = 300}
 		},
 
 		boss = {
-			{model = 'buzzard2', price = 10000},
-			{model = 'seasparrow', price = 250000}
+			{model = 'buzzard2', price = 100},
+			{model = 'seasparrow', price = 250}
 		}
 	}
 }
