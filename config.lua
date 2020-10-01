@@ -124,6 +124,166 @@ Config.Hospitals = {
 			}
 		}
 
+	},
+
+	MountZonahMedicalCenter = {
+
+		Blip = {
+			coords = vector3(-449.39, -341.01, 34.5), -- hospital blip op map
+			sprite = 61,
+			scale  = 1.2,
+			color  = 2
+		},
+
+		AmbulanceActions = { -- boss actions en locker room
+			vector3(-447.93, -333.46, 33.5)
+		},
+
+		Pharmacies = { -- medicijnkassie
+			vector3(-449.76, -348.46, 33.5)
+		},
+
+		Vehicles = {
+			{
+				Spawner = vector3(-449.39, -341.01, 34.5), -- plaats waar je auto kan inspawnen
+				InsideShop = vector3(446.7, -1355.6, 43.5), -- hetzelfde houden!!!
+				Marker = {type = 36, x = 1.0, y = 1.0, z = 1.0, r = 100, g = 50, b = 200, a = 100, rotate = true}, -- config van markers
+				SpawnPoints = {
+					{coords = vector3(-457.17, -332.22, 34.36), heading = 77.07, radius = 4.0},
+					{coords = vector3(-486.31, -332.12, 34.36), heading = 263.43, radius = 4.0},
+					{coords = vector3(-459.47, -346.44, 34.36), heading = 77.07, radius = 4.0},
+					{coords = vector3(-486.77, -343.03, 34.36), heading = 263.43, radius = 4.0}
+				}
+			}
+		},
+
+		Helicopters = {
+			{
+				Spawner = vector3(-446.68, -326.07, 78.17), -- plaats waar je heli kan inspawnen
+				InsideShop = vector3(305.6, -1419.7, 41.5), -- hetzelfde!!
+				Marker = {type = 34, x = 1.5, y = 1.5, z = 1.5, r = 100, g = 150, b = 150, a = 100, rotate = true}, -- config van markers
+				SpawnPoints = {
+					{coords = vector3(-456.63, -291.05, 78.17), heading = 107.16, radius = 10.0},
+					{coords = vector3(-449.91, -307.15, 78.17), heading = 114.01, radius = 10.0}
+				}
+			}
+		},
+
+		FastTravels = {
+			{
+				From = vector3(-496.84, -328.76, 33.5),
+				To = {coords = vector3(-440.77, -328.53, 77.17), heading = 12.51},
+				Marker = {type = 1, x = 2.0, y = 2.0, z = 0.5, r = 102, g = 0, b = 102, a = 100, rotate = false}
+			},
+			{
+				From = vector3(-443.81, -331.06, 77.17),
+				To = {coords = vector3(-498.21, -342.82, 33.5), heading = 258.05},
+				Marker = {type = 1, x = 2.0, y = 2.0, z = 0.5, r = 102, g = 0, b = 102, a = 100, rotate = false}
+			},
+		},
+
+		FastTravelsPrompt = { }
+	},
+
+	PillboxHillMedicalCenter = {
+
+		Blip = {
+			coords = vector3(364.43, -591.75, 28.69), -- hospital blip op map
+			sprite = 61,
+			scale  = 1.2,
+			color  = 2
+		},
+
+		AmbulanceActions = { -- boss actions en locker room
+			vector3(360.53, -585.2, 27.82)
+		},
+
+		Pharmacies = { -- medicijnkassie
+			vector3(356.9, -594.64, 27.78)
+		},
+
+		Vehicles = {
+			{
+				Spawner = vector3(341.77, -541.16, 28.74), -- plaats waar je auto kan inspawnen
+				InsideShop = vector3(446.7, -1355.6, 43.5), -- hetzelfde houden!!!
+				Marker = {type = 36, x = 1.0, y = 1.0, z = 1.0, r = 100, g = 50, b = 200, a = 100, rotate = true}, -- config van markers
+				SpawnPoints = {
+					{coords = vector3(342.67, -559.57, 28.74), heading = 337.8, radius = 4.0},
+					{coords = vector3(331.06, -555.03, 28.74), heading = 339.18, radius = 4.0}
+				}
+			}
+		},
+
+		Helicopters = {
+			{
+				Spawner = vector3(342.04, -594.81, 74.17), -- plaats waar je heli kan inspawnen
+				InsideShop = vector3(305.6, -1419.7, 41.5), -- hetzelfde!!
+				Marker = {type = 34, x = 1.5, y = 1.5, z = 1.5, r = 100, g = 150, b = 150, a = 100, rotate = true}, -- config van markers
+				SpawnPoints = {
+					{coords = vector3(351.62, -588.18, 74.17), heading = 247.96, radius = 10.0}
+				}
+			}
+		},
+
+		FastTravels = {
+			{
+				From = vector3(319.3, -559.24, 27.74),
+				To = {coords = vector3(339.57, -589.03, 73.17), heading = 276.47},
+				Marker = {type = 1, x = 2.0, y = 2.0, z = 0.5, r = 102, g = 0, b = 102, a = 100, rotate = false}
+			},
+			{
+				From = vector3(339.49, -584.28, 73.17),
+				To = {coords = vector3(321.75, -554.95, 27.74), heading = 336.14},
+				Marker = {type = 1, x = 2.0, y = 2.0, z = 0.5, r = 102, g = 0, b = 102, a = 100, rotate = false}
+			},
+		},
+
+		FastTravelsPrompt = { }
+	},
+
+	SandyShoresMedicalCenter = {
+
+		Blip = {
+			coords = vector3(1839.39, 3672.95, 34.28), -- hospital blip op map
+			sprite = 61,
+			scale  = 1.2,
+			color  = 2
+		},
+
+		AmbulanceActions = { -- boss actions en locker room
+			vector3(1839.39, 3672.95, 33.28)
+		},
+
+		Pharmacies = { -- medicijnkassie
+			vector3(1843.35, 3674.87, 33.27)
+		},
+
+		Vehicles = {
+			{
+				Spawner = vector3(1838.2, 3666.59, 33.68), -- plaats waar je auto kan inspawnen
+				InsideShop = vector3(446.7, -1355.6, 43.5), -- hetzelfde houden!!!
+				Marker = {type = 36, x = 1.0, y = 1.0, z = 1.0, r = 100, g = 50, b = 200, a = 100, rotate = true}, -- config van markers
+				SpawnPoints = {
+					{coords = vector3(1847.32, 3671.88, 33.7), heading = 218.43, radius = 4.0},
+					{coords = vector3(1835.01, 3665.02, 33.72), heading = 218.18, radius = 4.0}
+				}
+			}
+		},
+
+		Helicopters = {
+			{
+				Spawner = vector3(1844.92, 3670.14, 33.68), -- plaats waar je heli kan inspawnen
+				InsideShop = vector3(305.6, -1419.7, 41.5), -- hetzelfde!!
+				Marker = {type = 34, x = 1.5, y = 1.5, z = 1.5, r = 100, g = 150, b = 150, a = 100, rotate = true}, -- config van markers
+				SpawnPoints = {
+					{coords = vector3(1846.54, 3644.33, 34.25), heading = 12.04, radius = 10.0}
+				}
+			}
+		},
+
+		FastTravels = { },
+
+		FastTravelsPrompt = { }
 	}
 }
 
