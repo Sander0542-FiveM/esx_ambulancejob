@@ -294,7 +294,7 @@ Config.AuthorizedVehicles = {
 		},
 
 		doctor = {
-			{model = 'ambulance', price = 5}
+			{model = 'ambulance', price = 0}
 		},
 
 		chief_doctor = {
