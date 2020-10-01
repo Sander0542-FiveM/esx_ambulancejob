@@ -8,7 +8,7 @@ Config.ReviveReward               = 100  -- Revive reward, set to 0 if you don't
 Config.AntiCombatLog              = true -- Enable anti-combat logging? (Removes Items when a player logs back after intentionally logging out while dead.)
 Config.LoadIpl                    = false -- Disable if you're using fivem-ipl or other IPL loaders
 
-Config.Locale                     = 'en'
+Config.Locale                     = 'nl'
 
 Config.EarlyRespawnTimer          = 1000 * 120  -- time til respawn is available
 Config.BleedoutTimer              = 1000 * 180 -- time til the player bleeds out
