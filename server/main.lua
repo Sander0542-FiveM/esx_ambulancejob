@@ -93,7 +93,7 @@ ESX.RegisterServerCallback('esx_ambulancejob:removeItemsAfterRPDeath', function(
 
 	if Config.RemoveBlackCashAfterRPDeath then
 		if xPlayer.getAccount('black_money').money > 0 then
-			xPlayer.triggerEvent('esx:removeInventoryItem', 'item_account', 'black_money', xPlayer.getAccount('black_money').money)
+			xPlayer.setAccountMoney('black_money', 0)
 		end
 	end
 
